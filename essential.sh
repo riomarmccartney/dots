@@ -84,6 +84,7 @@ apps=(
   bartender
   cheatsheet
   google-chrome
+  sync
 )
 brew cask install "${apps[@]}"
 
@@ -98,4 +99,4 @@ npm install -g "${apps[@]}"
 
 # Open installations that must be completed by user
 # ACC
-open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.app' 
+open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.app'
