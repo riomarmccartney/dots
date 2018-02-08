@@ -1,2 +1,2 @@
-# essential
-Essential softwares &amp; libraries for Mac
+# Essential
+Essential softwares, CLI & Settings for MacOS
