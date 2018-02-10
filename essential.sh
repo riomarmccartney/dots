@@ -76,6 +76,7 @@ apps=(
   alcatraz
   # Communication
   slack
+  telegram
   # Utilities
   hyper
   1password
