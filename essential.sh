@@ -1,10 +1,10 @@
 ###### MacOS essentials
-#Remove dock items
+# Remove dock items
 defaults delete com.apple.dock persistent-apps
 defaults delete com.apple.dock persistent-others
 killall Dock
 
-#Enable tap to click
+# Enable tap to click
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
@@ -89,7 +89,7 @@ apps=(
 )
 brew cask install "${apps[@]}"
 
-# npms
+# Npms
 apps=(
   # Web
   bower
