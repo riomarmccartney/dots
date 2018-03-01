@@ -86,6 +86,7 @@ apps=(
   cheatsheet
   google-chrome
   sync
+  toggl
 )
 brew cask install "${apps[@]}"
 
