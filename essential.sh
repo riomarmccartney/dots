@@ -77,6 +77,7 @@ apps=(
   # Communication
   slack
   telegram
+  tweet-tray
   # Utilities
   hyper
   1password
