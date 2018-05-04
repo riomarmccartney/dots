@@ -88,6 +88,7 @@ apps=(
   google-chrome
   sync
   toggl
+  the-unarchiver
 )
 brew cask install "${apps[@]}"
 
