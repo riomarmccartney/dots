@@ -50,7 +50,7 @@ apps=(
   # Javascript
   yarn
 )
-brew install "${apps[@]}"
+brew install "${apps}"
 
 # Tapping via Cask
 apps=(
@@ -90,7 +90,7 @@ apps=(
   toggl
   the-unarchiver
 )
-brew cask install "${apps[@]}"
+brew cask install "${apps}"
 
 # Npms
 apps=(
