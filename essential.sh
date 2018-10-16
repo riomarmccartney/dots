@@ -59,18 +59,15 @@ apps=(
   figma
   origami-studio
   abstract
-  atom
+  visual-studio-code
   adobe-creative-cloud
-  fontbase
   notion
   # Client
   sourcetree
   now
   # Plugins
   craftmanager
-  # Fuse
-  osxfuse
-  # Install Java8
+  # Install Java
   java
   # Xcode
   alcatraz
@@ -91,15 +88,6 @@ apps=(
   the-unarchiver
 )
 brew cask install "${apps}"
-
-# Npms
-apps=(
-  # Web
-  bower
-  # Hyper
-  hpm-cli
-)
-npm install -g "${apps[@]}"
 
 # Open installations that must be completed by user
 # ACC
