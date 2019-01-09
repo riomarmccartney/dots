@@ -58,7 +58,6 @@ apps=(
   sketch
   figma
   origami-studio
-  abstract
   visual-studio-code
   adobe-creative-cloud
   notion
@@ -86,6 +85,9 @@ apps=(
   sync
   toggl
   the-unarchiver
+  toggl
+  vlc
+  zoomus
 )
 brew cask install "${apps}"
 
