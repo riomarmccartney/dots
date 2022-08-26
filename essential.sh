@@ -55,41 +55,34 @@ brew install "${apps}"
 # Tapping via Cask
 apps=(
   # Creative Tools
-  sketch
   figma
   origami-studio
   visual-studio-code
   adobe-creative-cloud
   notion
-  # Client
-  sourcetree
-  now
-  # Plugins
-  craftmanager
-  # Install Java
+  gifski
   java
-  # Xcode
-  alcatraz
-  # Communication
   slack
   telegram
-  tweet-tray
-  # Utilities
   hyper
+  tyme
   1password
-  backblaze
-  dropbox
   bartender
   cheatsheet
   google-chrome
+  google-drive
   sync
-  toggl
   the-unarchiver
-  toggl
   vlc
   zoomus
+  linear
+  messenger
+  clipy
+  blender
+  docker
+  pandan
 )
-brew cask install "${apps}"
+brew install --cask "${apps}"
 
 # Open installations that must be completed by user
 # ACC
